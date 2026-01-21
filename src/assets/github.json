@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Weather App",
+    "description": "A simple weather application that shows real-time temperature, humidity, and weather conditions using a public API.",
+    "tags": ["React", "API", "CSS"],
+    "repoLink": "https://github.com/username/weather-app",
+    "demoLink": "https://weather-app-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlzdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Todo List",
+    "description": "A clean and minimal todo list app with add, delete, and mark-as-complete features.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "repoLink": "https://github.com/username/todo-list",
+    "demoLink": "https://todo-list-demo.netlify.app"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1706169582307-8ae586631e8a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV4cGVuc2V8ZW58MHx8MHx8fDA%3D",
+    "title": "Expense Tracker",
+    "description": "Track your daily expenses and visualize spending patterns with charts.",
+    "tags": ["React", "Chart.js", "LocalStorage"],
+    "repoLink": "https://github.com/username/expense-tracker",
+    "demoLink": "https://expense-tracker-demo.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlzdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website to showcase projects, skills, and contact information.",
+    "tags": ["Next.js", "TailwindCSS", "Responsive"],
+    "repoLink": "https://github.com/username/portfolio",
+    "demoLink": null
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlzdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Authentication System",
+    "description": "A basic authentication system with login, signup, and protected routes.",
+    "tags": ["React", "Firebase", "Auth"],
+    "repoLink": "https://github.com/username/auth-system",
+    "demoLink": "https://auth-system-demo.vercel.app"
+  }
+]

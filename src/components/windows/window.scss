@@ -1,0 +1,63 @@
+.window {
+    height: 100%;
+    position: relative;
+    background-color: #060606;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    color: rgb(245, 240, 240);
+    scrollbar-width: none;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ 
+
+    .nav {
+        cursor: default  !important;
+        color: rgb(195, 195, 195);
+        padding-inline: 0.75rem;
+        padding-block: 0.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.5rem;
+
+        border-bottom: 1px solid rgb(62, 62, 62);
+
+        .dots {
+            display: flex;
+            gap: 0.25rem;
+
+            .dot {
+                height: 15px;
+                width: 15px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 50%;
+            }
+            .red{
+                background-color: red;
+                
+            }
+            .yellow{
+                background-color: rgb(254, 254, 33);
+                
+            }
+            .green{
+                background-color: rgb(2, 238, 2);
+            }
+        }
+
+    }
+    .main-content{
+        height: 100%;
+    }
+
+    *::-webkit-scrollbar{
+        width: 5px;
+        
+    }
+    *::-webkit-scrollbar-thumb{
+        background-color: #515151;
+    }
+}
+
