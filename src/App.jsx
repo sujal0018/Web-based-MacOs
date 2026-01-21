@@ -23,8 +23,10 @@ const App = () => {
           <Nav windowState={windowState} setwindowState={setwindowState} />
           <Dock windowState={windowState} setwindowState={setwindowState} />
           {windowState.github && <Github windowname='github' setwindowState={setwindowState} />}
-          {windowState.note && <Note windowname='note'setwindowState={setwindowState}  />}
-          {windowState.resume && <Resume windowname='resume' setwindowState={setwindowState} />}
+          {windowState.note && <Note windowname='note' setwindowState={setwindowState} />}
+          
+          {/* {windowState.resume && <Resume windowname='resume' setwindowState={setwindowState} />}
+           */}
           {windowState.spotify && <Spotify windowname='spotify' setwindowState={setwindowState} />}
           {windowState.cli && <Cli windowname='cli'setwindowState={setwindowState}  />}    
           

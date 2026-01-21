@@ -25,7 +25,7 @@ const Nav = ({ windowState, setwindowState }) => {
 				<div className="nav-item">
 					<p
 						onClick={() => {
-							window.open("window.location", "_blank");
+							window.open("https://sujal0018.github.io/Web-based-MacOs/", "_blank");
 						}}
 					>
 						New Window

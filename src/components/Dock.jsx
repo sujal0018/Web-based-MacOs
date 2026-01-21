@@ -23,7 +23,7 @@ const Dock = ({ windowState, setwindowState }) => {
 			>
 				<img src="./doc-icons/note.svg" alt="" />
 			</div>
-			<div
+			{/* <div
 				onClick={() => {
 					setwindowState({
 						...windowState,
@@ -33,7 +33,7 @@ const Dock = ({ windowState, setwindowState }) => {
 				className="icon pdf"
 			>
 				<img src="./doc-icons/pdf.svg" alt="" />
-			</div>
+			</div> */}
 			<div
 				onClick={() => {
 					window.open("https://calendar.google.com", "_blank");
