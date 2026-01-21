@@ -1,16 +1,42 @@
-# React + Vite
+# 🍎 Web-based macOS (macOS UI Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A macOS-inspired **web operating system** built using **React + Vite**, replicating core macOS UI concepts such as Dock, draggable windows, Finder-like navigation, Notes app, and system-style interactions — all inside the browser.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**  
+https://sujal0018.github.io/Web-based-MacOs/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🪟 **Draggable & Resizable Windows**
+- 🚢 **macOS-style Dock**
+- 📁 **Finder-like File Explorer (Virtual File System)**
+- 📝 **Notes App with Auto-save**
+- 💻 **Terminal / CLI Emulator**
+- 🎵 **Spotify UI Window**
+- 📄 **Resume Viewer**
+- 📧 **Gmail Compose Integration (Contact via Dock)**
+- 💾 **Persistent State using LocalStorage**
+- 📱 **Responsive Design**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** SCSS (Sass)
+- **Window Management:** react-rnd
+- **State Management:** React Hooks
+- **Persistence:** LocalStorage
+- **Deployment:** GitHub Pages
+
+---
+
+## 🧠 Architecture Overview
+
+```text
+Dock → Window State → MacWindow
+           ↓
+     Individual Apps
+ (Finder, Notes, GitHub, CLI, etc.)
